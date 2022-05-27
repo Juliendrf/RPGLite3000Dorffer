@@ -4,7 +4,6 @@ package com.isep.javafx;
 import com.isep.rpg.*;
 import javafx.animation.PauseTransition;
 import javafx.application.Application;
-import javafx.event.Event;
 import javafx.event.EventHandler;
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
@@ -16,17 +15,13 @@ import javafx.scene.layout.VBox;
 import javafx.scene.text.Font;
 import javafx.stage.Stage;
 import javafx.scene.image.*;
-import javafx.scene.layout.*;
 import javafx.util.Duration;
 
 
 import java.io.IOException;
-import java.net.URL;
-
-import static com.isep.rpg.Game.*;
 
 
-public class HelloApplication extends Application {
+public class MainController extends Application {
     @Override
     public void start(Stage stage) throws IOException {
 
